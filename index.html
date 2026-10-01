@@ -1,133 +1,426 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>A Odisseia - Filme</title>
+    ```
+    <title>Cinema - A Odisseia</title>
     <link rel="stylesheet" href="style.css">
+    ```
+
 </head>
 
 <body>
 
-    <header>
-        <h1>A Odisseia</h1>
-        <p>Uma jornada épica entre mitologia, aventura e sobrevivência</p>
+    ```
+    <!-- CABEÇALHO -->
+
+    <header class="hero">
+
+        <nav>
+            <h2 class="logo">🎬 CINEMA+</h2>
+
+            <div class="menu">
+                <a href="#odisseia">A Odisseia</a>
+                <a href="#elenco">Elenco</a>
+                <a href="#lancamentos">Lançamentos</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+
+            <span class="categoria">FILME EM DESTAQUE</span>
+
+            <h1>A Odisseia</h1>
+
+            <p>
+                Uma jornada épica entre mitologia, aventura e sobrevivência.
+            </p>
+
+            <a class="botao" href="#odisseia">
+                🎬 Conheça o filme
+            </a>
+
+        </div>
+
     </header>
+
 
     <main>
 
-        <section>
-            <h2>Sinopse</h2>
+        <!-- A ODISSEIA -->
+
+        <section id="odisseia" class="filme-principal">
+
+            <div class="poster">
+
+                <img src="./odissey.jpg" alt="Pôster do filme A Odisseia">
+
+            </div>
+
+            <div class="informacoes">
+
+                <span class="tag">2026</span>
+
+                <h2>A Odisseia</h2>
+
+                <p class="descricao">
+
+                    Após a Guerra de Troia, Odisseu inicia uma perigosa
+                    jornada de volta para sua terra natal, Ítaca.
+
+                    Durante o caminho, ele enfrenta criaturas e desafios
+                    da mitologia grega enquanto tenta retornar para sua família.
+
+                </p>
+
+                <div class="dados">
+
+                    <p><strong>🎭 Gênero:</strong>
+                        Aventura, Ação, Fantasia e Drama
+                    </p>
+
+                    <p><strong>🎬 Direção:</strong>
+                        Christopher Nolan
+                    </p>
+
+                    <p><strong>⏱️ Duração:</strong>
+                        2h 52min
+                    </p>
+
+                    <p><strong>🌎 Idioma:</strong>
+                        Inglês e Grego
+                    </p>
+
+                </div>
+
+                <a class="botao" href="https://www.youtube.com/watch?v=f_bKjZeJBBI" target="_blank">
+
+                    ▶ Assistir ao trailer
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- SINOPSE -->
+
+        <section class="conteudo">
+
+            <h2 class="titulo">📖 Sobre o filme</h2>
 
             <p>
-                Após a Guerra de Troia, Odisseu inicia uma perigosa jornada
-                de volta para sua terra natal, Ítaca. Durante o caminho,
-                ele enfrenta criaturas e desafios da mitologia grega,
-                enquanto tenta retornar para sua família.
+
+                A história acompanha Odisseu em sua tentativa de voltar
+                para Ítaca depois da Guerra de Troia.
+
+                Durante sua jornada, ele encontra figuras e criaturas
+                da mitologia grega, incluindo o Ciclope Polifemo,
+                as Sereias e Calipso.
+
             </p>
+
         </section>
 
-        <section>
-            <h2>Informações</h2>
 
-            <ul>
-                <li><strong>Gênero:</strong> Aventura, Ação, Fantasia e Drama</li>
-                <li><strong>Ano:</strong> 2026</li>
-                <li><strong>Duração:</strong> 2 horas e 52 minutos</li>
-                <li><strong>Direção:</strong> Christopher Nolan</li>
-                <li><strong>Roteiro:</strong> Christopher Nolan e Homero</li>
-                <li><strong>Idioma:</strong> Inglês e Grego</li>
-            </ul>
+        <!-- ELENCO -->
+
+        <section id="elenco" class="conteudo">
+
+            <h2 class="titulo">⭐ Elenco principal</h2>
+
+            <div class="elenco">
+
+                <article class="ator">
+
+                    <img src="./matt-damon.jpg" alt="Matt Damon">
+
+                    <div>
+                        <h3>Matt Damon</h3>
+                        <p>Odisseu</p>
+                    </div>
+
+                </article>
+
+
+                <article class="ator">
+
+                <img src="./tom-holland.jpg" alt="Tom Holland">
+
+                    <div>
+                        <h3>Tom Holland</h3>
+                        <p>Telêmaco</p>
+                    </div>
+
+                </article>
+
+
+                <article class="ator">
+
+                    <img src="./anne-hathaway.jpg" alt="Anne Hathaway">
+
+                    <div>
+                        <h3>Anne Hathaway</h3>
+                        <p>Penélope</p>
+                    </div>
+
+                </article>
+
+
+                <article class="ator">
+
+                    <img src="./robert-pattinson.jpg" alt="Robert Pattinson">
+
+                    <div>
+                        <h3>Robert Pattinson</h3>
+                        <p>Antínoo</p>
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Elenco principal</h2>
 
-            <ul>
-                <li>Matt Damon como Odisseu</li>
-                <li>Tom Holland como Telêmaco</li>
-                <li>Anne Hathaway como Penélope</li>
-                <li>Robert Pattinson como Antínoo</li>
-                <li>Travis Scott como Bard</li>
-            </ul>
+        <!-- PRÓXIMOS FILMES -->
+
+        <section id="lancamentos" class="conteudo">
+
+            <h2 class="titulo">🍿 Próximos filmes no cinema</h2>
+
+            <p class="subtitulo">
+                Alguns dos lançamentos mais aguardados de 2026.
+            </p>
+
+
+            <div class="filmes">
+
+
+                <!-- AVENGERS -->
+
+                <article class="card destaque">
+
+                    <div class="imagem-filme">
+
+                        <img src="./avengers-doomsday.jpg" alt="Avengers Doomsday">
+                        <span class="data">
+                            18 DEZ
+                        </span>
+
+                    </div>
+
+                    <div class="card-info">
+
+                        <h3>Avengers: Doomsday</h3>
+
+                        <p>
+                            Os heróis de diferentes universos se encontram
+                            diante de uma ameaça que pode mudar o destino
+                            de todo o multiverso.
+                        </p>
+
+                        <strong>🦸 Estreia: 18/12/2026</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DUNA -->
+
+                <article class="card">
+
+                    <div class="imagem-filme">
+
+                        <img src="./dune3.jpg" alt="Duna Parte 3">
+
+                        <span class="data">
+                            DEZ 2026
+                        </span>
+
+                    </div>
+
+                    <div class="card-info">
+
+                        <h3>Duna: Parte Três</h3>
+
+                        <p>
+                            A continuação da épica saga de Paul Atreides
+                            no universo de Arrakis.
+                        </p>
+
+                        <strong>🏜️ Estreia: Dezembro de 2026</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- JOGOS VORAZES -->
+
+                <article class="card">
+
+                    <div class="imagem-filme">
+
+                        <img src="./jogosvorazes.jpg" alt="Jogos Vorazes Amanhecer na Colheita">
+
+                        <span class="data">
+                            NOV 2026
+                        </span>
+
+                    </div>
+
+                    <div class="card-info">
+
+                        <h3>Jogos Vorazes: Amanhecer na Colheita</h3>
+
+                        <p>
+                            Uma nova história dentro do universo de
+                            Jogos Vorazes.
+                        </p>
+
+                        <strong>🏹 Estreia: Novembro de 2026</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STREET FIGHTER -->
+
+                <article class="card">
+
+                    <div class="imagem-filme">
+
+                        <img src="./streetfighter.jpg" alt="Street Fighter">
+
+                        <span class="data">
+                            OUT 2026
+                        </span>
+
+                    </div>
+
+                    <div class="card-info">
+
+                        <h3>Street Fighter</h3>
+
+                        <p>
+                            A famosa franquia dos videogames retorna
+                            aos cinemas em uma nova aventura.
+                        </p>
+
+                        <strong>🥊 Estreia: Outubro de 2026</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- VERITY -->
+
+                <article class="card">
+
+                    <div class="imagem-filme">
+
+                        <img src="./verity.jpg" alt="Verity">
+
+                        <span class="data">
+                            OUT 2026
+                        </span>
+
+                    </div>
+
+                    <div class="card-info">
+
+                        <h3>Verity</h3>
+
+                        <p>
+                            Um suspense baseado no livro de Colleen Hoover.
+                        </p>
+
+                        <strong>🔪 Estreia: Outubro de 2026</strong>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CARA DE BARRO -->
+
+                <article class="card">
+
+                    <div class="imagem-filme">
+
+                        <img src="./caradebarro.jpg" alt="Cara de Barro">
+
+                        <span class="data">
+                            OUT 2026
+                        </span>
+
+                    </div>
+
+                    <div class="card-info">
+
+                        <h3>Cara-de-Barro</h3>
+
+                        <p>
+                            Um novo capítulo do universo da DC chega
+                            aos cinemas.
+                        </p>
+
+                        <strong>🦇 Estreia: Outubro de 2026</strong>
+
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Sobre o filme</h2>
 
-            <article>
-                <h3>Uma jornada pela mitologia grega</h3>
+        <!-- PERSONAGENS -->
 
-                <p>
-                    A história acompanha Odisseu em sua tentativa de voltar
-                    para Ítaca depois da Guerra de Troia. Durante sua jornada,
-                    ele encontra figuras e criaturas da mitologia grega,
-                    incluindo o Ciclope Polifemo, as Sereias e Calipso.
-                </p>
-            </article>
+        <section class="conteudo">
 
-            <article>
-                <h3>Direção</h3>
+            <h2 class="titulo">🏛️ Personagens e elementos</h2>
 
-                <p>
-                    O filme é dirigido por Christopher Nolan e adapta para
-                    o cinema a famosa obra épica atribuída ao poeta grego
-                    Homero.
-                </p>
-            </article>
-        </section>
+            <div class="personagens">
 
-    <section class="filme-destaque">
-        <h2>A Odisseia</h2>
+                <span>⚔️ Odisseu</span>
+                <span>👦 Telêmaco</span>
+                <span>❤️ Penélope</span>
+                <span>👁️ Polifemo</span>
+                <span>🧜 As Sereias</span>
+                <span>🌊 Calipso</span>
 
-        <figure>
-            <img src="./odissey.jpg" alt="Pôster do filme A Odisseia">
+            </div>
 
-
-
-
-    <figcaption>
-        Pôster do filme The Odyssey.
-    </figcaption>
-</figure>
-
-
-            <figcaption>
-
-            </figcaption>
-        </figure>
-
-        <div class="trailer">
-            <a href="https://www.youtube.com/watch?v=f_bKjZeJBBI" target="_blank" rel="noopener noreferrer">
-                🎬 Assistir ao trailer
-            </a>
-        </div>
-    </section>
-        <section>
-            <h2>Personagens e elementos</h2>
-
-            <ul>
-                <li>Odisseu</li>
-                <li>Telêmaco</li>
-                <li>Penélope</li>
-                <li>Polifemo</li>
-                <li>As Sereias</li>
-                <li>Calipso</li>
-            </ul>
         </section>
 
     </main>
 
+
     <footer>
 
-        </p>
+        <h2>🎬 CINEMA+</h2>
 
         <p>
             © 2026 - Samuel Kleber
         </p>
+
+        <p>
+            Projeto desenvolvido em HTML e CSS.
+        </p>
+
     </footer>
+    ```
 
 </body>
 
